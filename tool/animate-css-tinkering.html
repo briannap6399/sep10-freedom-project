@@ -5,6 +5,18 @@ h1 {
   display: inline-block;
 }
 
+.animate__bounce {
+  --animate-duration: 5s;
+  --animate-delay: 0.8s;
+}
+
+.animate__jackInTheBox {
+  color: blue;
+  margin-left: 100px;
+  --animate-duration: 900ms;
+  --animate-delay: 2s;
+  --animate-repeat: 4;
+}
 </style>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -12,5 +24,6 @@ h1 {
 <html>
   <body>
     <h1 class="animate__animated animate__bounce animate__repeat-3 animate__fast">Presto! One Animated object.</h1>
+<h2 class="animate__animated animate__jackInTheBox animate__slow animate__repeat-3">What if I tried you with another portion?</h2>
   </body>
 </html>

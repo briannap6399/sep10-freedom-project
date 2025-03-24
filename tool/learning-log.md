@@ -41,6 +41,26 @@ For this week's learning log, I decided too not dive my feet out so deep, and in
 
 Only the future really knows if it'll work, but I have high hopes.
 
+### Date 3/24/25:
+#### I started including CSS Variables.
+
+Before I truly go into the log, just want to apologize for not having a log for last week. There was a project, and I believed that the project had priority over the Learning Log, to the point where last week would be skipped.
+
+Anyways, I had started to dabble into the usage of what's known as _Custom CSS_, which are basically unique Variables designed to be used with CSS. From what I've gathered from Animate CSS, I realized that there are **3** Primary Variables in which I can use; `--animate-delay`, `--animate-duration`, and `--animate-repeat`. What I find interesting from these Variables is that it takes the already set up classes you have, and basically can extend or even shorten their animation status. For Example, let's say I have this line of code:
+
+```HTML
+<style>
+.animate__jackInTheBox {
+  color: blue;
+  margin: 50px;
+  --animate-repeat: 4;
+}
+</style>
+<body>
+<h1 class="animate__animated animate__jackInTheBox animate__repeat-3">Key Demo.</h1>
+</body>
+```
+Notice how I gave the Jack-in-the-Box Animation a repeating cycle of **3**, but upon using CSS, I gave it a repeating variable of **4**. What do you predict would happen? Admittedly, I thought that the animation cycle would only repeat itself **7** times, with the 4 established from the CSS Variable adding onto the 3 established from the Class. However upon previewing the CSS, it did not repeat 7 Times. Instead, it'd repeat **12** Times. This is because of the fact that the cycle of animation itself is being multiplied by the requested amount through the Variable. As we all should especially know by now, 4 times 3 is 12, hence the 12 Repeation. But does this apply to the other Variables as well?
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
