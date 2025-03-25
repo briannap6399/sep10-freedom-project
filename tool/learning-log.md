@@ -60,7 +60,22 @@ Anyways, I had started to dabble into the usage of what's known as _Custom CSS_,
 <h1 class="animate__animated animate__jackInTheBox animate__repeat-3">Key Demo.</h1>
 </body>
 ```
-Notice how I gave the Jack-in-the-Box Animation a repeating cycle of **3**, but upon using CSS, I gave it a repeating variable of **4**. What do you predict would happen? Admittedly, I thought that the animation cycle would only repeat itself **7** times, with the 4 established from the CSS Variable adding onto the 3 established from the Class. However upon previewing the CSS, it did not repeat 7 Times. Instead, it'd repeat **12** Times. This is because of the fact that the cycle of animation itself is being multiplied by the requested amount through the Variable. As we all should especially know by now, 4 times 3 is 12, hence the 12 Repeation. But does this apply to the other Variables as well?
+Notice how I gave the Jack-in-the-Box Animation a repeating cycle of **3**, but upon using CSS, I gave it a repeating variable of **4**. What do you predict would happen? Admittedly, I thought that the animation cycle would only repeat itself **7** times, with the 4 established from the CSS Variable adding onto the 3 established from the Class. However upon previewing the CSS, it did not repeat 7 Times. Instead, it'd repeat **12** Times. This is because of the fact that the cycle of animation itself is being multiplied by the requested amount through the Variable. As we all should especially know by now, 4 times 3 is 12, hence the 12 Repeation. But does this apply to the other Variables as well? Somewhat. Let me use the `--animate-duration` Variable for example. For it. my code will look like this:
+
+```HTML
+<style>
+.animate__jackInTheBox {
+  color: blue;
+  margin: 50px;
+  --animate-repeat: 4;
+  --animate-duration: 900ms;
+}
+</style>
+<body>
+<h1 class="animate__animated animate__jackInTheBox animate__slow animate__repeat-3">Yet another Demo.</h1>
+</body>
+```
+Because the Variable itself sets the animation to last for about **900 Milliseconds**, despite the fact the the code has a class that makes the animation slower than usual, the animation itself will be a little quick regardless, and I find that fascinating.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
