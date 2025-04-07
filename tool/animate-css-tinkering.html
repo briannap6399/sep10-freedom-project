@@ -1,3 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
+
 <style>
 .animate__rollOut {
   color: #F08080;
@@ -12,6 +14,7 @@
   margin-left: 35%;
   --animate-duration: 1s;
   --animate-delay: 0.8s;
+  animation-name: none;
 }
 .animate__jackInTheBox {
   color: #87CEFA;
@@ -29,6 +32,12 @@
 }
 #three {
   background: #696969;
+}
+
+@keyframes none{
+  0% {color:red;}
+  50% {color:green;}
+  100%{color:blue;}
 }
 </style>
 <head>
@@ -52,3 +61,5 @@
    </div>
   </body>
 </html>
+
+]

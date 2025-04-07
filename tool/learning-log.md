@@ -76,6 +76,23 @@ Notice how I gave the Jack-in-the-Box Animation a repeating cycle of **3**, but 
 </body>
 ```
 Because the Variable itself sets the animation to last for about **900 Milliseconds**, despite the fact the the code has a class that makes the animation slower than usual, the animation itself will be a little quick regardless, and I find that fascinating.
+
+### Date: 4/5/25
+#### Keyframes (Week 1)
+
+I think this might be the first time I try to do several weeks on the same topic. This might sound counterintutitive, especially since this log is supposed to be designed to include several unique topics, but, and this is for me personally, I find myself struggling with Keyframes, and understanding how to use them. They remind me a lot of some of the code I'd see in an animation in Scratch, but of course without the `If Start is Pressed` sequence of code. Anyways, for this week, I tried to understand the structure of a Keyframe. (As in, try to understand how it's code should look) As of right now, I have this:
+
+```HTML
+<style>
+@keyframes none{
+  0% {color:red;}
+  50% {color:green;}
+  100%{color:blue;}
+}
+</style>
+```
+I was given advice from a friend that the name I select to be used for the keyframe needs to match in a specific way, however, I'm not certain on how I can name the keyframe. I did use [this Animation Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name) as a sort of guide, and from what I can understand, I need to give one portion of CSS `animation-name: [Insert Name];`, though when I tried to plug in the name `none`, which was an example featured on the Guide, I didn't get a reaction from the CSS. Maybe it's because the sequence of code it's attached to is already being animated by Animate CSS? Whatever the case, my main goal right now is to try and get it to work. I plan on looking at more Guides, and even doing some Youtube Researching in order to find out what I can do in order to make this more active. But going back to the guide, apparently the 'hover' part of a button or image for example can actually be animated, which does make me curious; What if I tried to replicate it's effects in what I'm calling the ['Tinker Pad'?](animate-css-thinkering.html) It would make for good practice that's for sure.
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
