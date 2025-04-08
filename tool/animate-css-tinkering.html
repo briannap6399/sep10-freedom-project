@@ -1,4 +1,5 @@
 https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
+https://www.youtube.com/watch?v=PjR97QzOrJM 
 
 <style>
 .animate__rollOut {
@@ -34,10 +35,48 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
   background: #696969;
 }
 
-@keyframes none{
-  0% {color:red;}
-  50% {color:green;}
-  100%{color:blue;}
+.rectangle {
+  background-color: purple;
+  width: 300px;
+  height: 100px;
+  margin-left: 500px;
+  padding: 200px;
+  border-radius: 10px;
+}
+
+.rectangle:hover {
+  background-color: #9932CC;
+  animation-name: rotate;
+  animation-duration: 2s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle {
+  background-color: #87CEFA;
+  width: 200px;
+  height: 200px;
+  margin-left: 400px;
+  border-radius: 40%;
+}
+
+.circle:hover {
+  background-color: #ADD8E6;
+  animation-name: slide;
+  animation-duration: 0.8s;
+}
+
+@keyframes slide {
+  from{ transform: translateX(0);}
+
+  to{ transform: translateX(1000px);}
 }
 </style>
 <head>
@@ -59,6 +98,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
       </div>
     </div>
    </div>
+   <div class="rectangle animate__animated animate__tada"></div>
+   <div class="circle"></div>
   </body>
 </html>
 
