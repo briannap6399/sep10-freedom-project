@@ -1,5 +1,5 @@
 https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
-https://www.youtube.com/watch?v=PjR97QzOrJM 
+https://www.youtube.com/watch?v=PjR97QzOrJM
 
 <style>
 .animate__rollOut {
@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
 #three {
   background: #696969;
 }
-
+<!--
 .rectangle {
   background-color: purple;
   width: 300px;
@@ -78,6 +78,30 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
 
   to{ transform: translateX(1000px);}
 }
+-->
+.pencil {
+  margin-left: 50%;
+  border-radius: 30%;
+  width: 600px;
+  height: 600px;
+}
+
+.pencil:hover {
+  animation-name: rotate;
+  animation-duration: 0.6s;
+}
+
+@keyframes rotate {
+  0% {
+     transform: rotate(0);
+  }
+
+  100% {
+       transform: rotate(360deg);
+  }
+}
+
+
 </style>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -100,7 +124,8 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
    </div>
    <div class="rectangle animate__animated animate__tada"></div>
    <div class="circle"></div>
+   <img class="pencil" src="word-art-tips.png"></img>
   </body>
 </html>
 
-]
+
