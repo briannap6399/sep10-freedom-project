@@ -54,6 +54,7 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
   background-color: #9932CC;
   animation-name: rotate;
   animation-duration: 2s;
+  animation-direction: alternate;
 }
 
 @keyframes rotate {
@@ -77,6 +78,8 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
   background-color: #ADD8E6;
   animation-name: slide;
   animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-duration: alternate;
 }
 
 @keyframes slide {
@@ -94,7 +97,7 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
 
 .pencil:hover {
   animation-name: rotate;
-  animation-duration: 0.6s;
+  animation-duration: 1s;
 }
 
 @keyframes rotate {
@@ -103,11 +106,30 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
   }
 
   100% {
-       transform: rotate(360deg);
+       transform: rotate(720deg);
   }
 }
 
+.even-circular {
+  background-color: #191970;
+  border-radius: 55%;
+  width: 300px;
+  height: 300px;;
+  margin-left: 70%;
+}
 
+.even-circular:hover {
+background-color: #483D8B;
+animation-name: grow-shrink;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes grow-shrink {
+  0%, 50%, 100% {scale: 100%}
+  25%, 75% {scale: 200%}
+}
 </style>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -117,20 +139,33 @@ https://www.youtube.com/watch?v=PjR97QzOrJM
   <body>
    <div class="container-fluid">
     <div class="row">
-      <div class="container" id="one">
-        <h1 class="animate__animated animate__bounce animate__infinite animate__faster" id="bounce">Presto! One Animated object.</h1>
-      </div>
-      <div class="container" id="two">
-        <h2 class="animate__animated animate__jackInTheBox animate__slow animate__repeat-3" id="jack-box">What if I tried you with another portion?</h2>
-      </div>
+
       <div class="container" id="three">
         <h1 class="animate__animated animate__rollOut animate__fast animate__infinite" id="Pulse-1">Pen time?</h1>
       </div>
     </div>
    </div>
-   <div class="rectangle animate__animated animate__tada"></div>
+   <div class="rectangle animate__animated animate__tada animate__faster"></div>
    <div class="circle"></div>
-   <img class="pencil" src="word-art-tips.png" alt="tips-design"></img>
+   <img class="pencil animate__animated animate__tada" src="word-art-tips.png" alt="tips-design"></img>
+   <div class="even-circular"></div>
+   <body>
+    </div>
+    <div class="container-fluid">
+     <div class="row">
+      <div class="container"
+        <div class="col-md-6 one">
+          <h1 class="animate__animated animate__bounce animate__infinite animate__faster" id="bounce">Presto! One Animated object.</h1>
+        </div>
+       <div class="col-sm-6 col-md two">
+        <h2 class="animate__animated animate__jackInTheBox animate__slow animate__repeat-3" id="jack-box">What if I tried you with another portion?</h2>
+       </div>
+       <div class="col-sm-6 col-md three">
+        <h1 class="animate__animated animate__rollOut animate__fast animate__infinite" id="Pulse-1">Pen time?</h1>
+       </div>
+      </div>
+     </div>
+    </div>
   </body>
 </html>
 
