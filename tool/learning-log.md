@@ -46,7 +46,7 @@ Only the future really knows if it'll work, but I have high hopes.
 
 Before I truly go into the log, just want to apologize for not having a log for last week. There was a project, and I believed that the project had priority over the Learning Log, to the point where last week would be skipped.
 
-Anyways, I had started to dabble into the usage of what's known as _Custom CSS_, which are basically unique Variables designed to be used with CSS. From what I've gathered from Animate CSS, I realized that there are **3** Primary Variables in which I can use; `--animate-delay`, `--animate-duration`, and `--animate-repeat`. What I find interesting from these Variables is that it takes the already set up classes you have, and basically can extend or even shorten their animation status. For Example, let's say I have this line of code:
+Anyways, I had started to dabble                                                                                                                                                                                                                          into the usage of what's known as _Custom CSS_, which are basically unique Variables designed to be used with CSS. From what I've gathered from Animate CSS, I realized that there are **3** Primary Variables in which I can use; `--animate-delay`, `--animate-duration`, and `--animate-repeat`. What I find interesting from these Variables is that it takes the already set up classes you have, and basically can extend or even shorten their animation status. For Example, let's say I have this line of code:
 
 ```HTML
 <style>
