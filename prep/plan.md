@@ -5,8 +5,14 @@
 * [Desktop](important-images/wireframe-desktop.png)
 
 ## Colors
-* `#ABC123`
-
+* [Possible Palette #1](important-images/possible-palette-1.png)
+    * #9E9E47 (Moss Green; Lighter)
+    * #929542 (Moss Green; Darker)
+    * #545658 (Davy's Gray)
+    * #8D909B (Cool Gray; Grayish-Blue)
+    * #AAADC4 (Cool Gray; Grayish-Purple)
+    * #D6EEFF (Columbia Blue)
+    * #ECF8FF (Alice Blue)
 ## Fonts
 * [Text](URL)
 
