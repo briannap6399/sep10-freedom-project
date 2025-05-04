@@ -13,6 +13,7 @@
     * #AAADC4 (Cool Gray; Grayish-Purple)
     * #D6EEFF (Columbia Blue)
     * #ECF8FF (Alice Blue)
+
 ## Fonts
 * [Tagesschrift](https://fonts.google.com/specimen/Tagesschrift)
 
@@ -42,7 +43,7 @@
 ### Saturday:
 * Add in the Contacts Section if the TIPS Section is complete, and start adding in adaptable features.
 ### Sunday:
-* Finish anything you have left to complete. 
+* Finish anything you have left to complete.
 #### MVP
 
 * Task/Timeline
