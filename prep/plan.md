@@ -52,8 +52,8 @@
 
 #### Beyond MVP
 
-* Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
-
+[] Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
+[] Possibly try to replace some of the cards with the carousel, and change around the colors to fit the color palette you wanted. 
 
 
 
