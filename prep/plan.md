@@ -52,7 +52,7 @@
 
 #### Beyond MVP
 
-* Task
+* Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
 
 
 
