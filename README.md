@@ -10,7 +10,7 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **[
 
 ## Links
 
-[Product](final-project/index.html)
+[Product](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
 
 [Presentation]()
 
