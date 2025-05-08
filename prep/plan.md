@@ -6,8 +6,8 @@
 
 ## Colors
 * [Possible Palette #1](important-images/possible-palette-1.png)
-    * #9E9E47 (Moss Green; Lighter)
-    * #929542 (Moss Green; Darker)
+    * #878740 (Moss Green; Lighter)
+    * #676934 (Moss Green; Darker)
     * #545658 (Davy's Gray)
     * #8D909B (Cool Gray; Grayish-Blue)
     * #AAADC4 (Cool Gray; Grayish-Purple)
@@ -53,7 +53,7 @@
 #### Beyond MVP
 
 [] Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
-[] Possibly try to replace some of the cards with the carousel, and change around the colors to fit the color palette you wanted. 
+[] Possibly try to replace some of the cards with the carousel, and change around the colors to fit the color palette you wanted.
 
 
 
