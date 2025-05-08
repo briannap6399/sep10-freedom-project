@@ -16,7 +16,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Tagesschrift&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
@@ -24,22 +24,57 @@
 .big-heading {
   text-align: center!important;
   font-family: Tagesschrift;
-  padding: 5%;
+  padding: 2.5%;
  }
 .support {
     font-family: Tagesschrift;
-}
-#text {
-    width: 85%;
-    height: 85%;
 }
 .logo {
     height: 4%;
     width: 4%;
 }
 .carousel {
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 90%;
+    padding-bottom: 2.5%;
+}
+.pencil {
+  border-radius: 30%;
+  width: 40%;
+  height: 40%;
+  margin-bottom: 3%;
+}
+
+.pencil:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% {
+     transform: rotate(0);
+  }
+
+  100% {
+       transform: rotate(720deg);
+  }
+}
+#write {
+    height: 80%;
+    width: 80%;
+}
+.card-title {
+    font-family: Tagesschrift;
+}
+.card-text {
+    font-family: Tagesschrift;
+}
+.card-body {
+    margin-top: 10%;
+}
+#contacts {
+    color: white;
+    width: 100%;
 }
         </style>
     </head>
@@ -61,34 +96,36 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
+        <div class="container bpx-4 px-lg-5">
             <!-- Heading Row-->
+
              <h1 class="big-heading" id="overview">Overview</h1>
              <div class="container">
                 <div class="row">
-                    <div class="col-md-8"
+                    <div class="col-md-7">
              <p class="support container">As clearly identified in history, communication has been the key to social interactions and collaborations. It’s also been the root of various relationships, romantic or not. Yet, none of these communications would have truly been done without the aid of writing systems. It might not seem like it immediately, but imagine this: Without writing tablets, and utensils, we wouldn’t have any information on more ancient events, nor would we have social media, as texting involves.. Writing. With that said, it begs the question; Why aren't we, as a society, exploring this whole world of writing that we created? Why did we create such a big gift, only to not use it as much as we truly should? Many teens nowadays only look to writing for texting along their social groups, and even then, there has been a whole other alphabet for communicating via social media. There is so much we can use, yet we don’t use it. There’s been various innovations and inventions that are here to aid in writing, and maybe, just maybe, they will be widely used in the near future.</p>
                     </div>
-                    <div class="col-md-4"
-                   <img src="assets/pencil-writing.png" alt="pencil">
-                    </div>
+            <div class="col-md-5">
+                   <img src="assets/pencil-writing.png" alt="pencil" id="write">
+            </div>
+            <h1 class="font-weight-light big-heading" id="advances">Current Writing Advances</h1>
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="assets/logogram.png" class="d-block w-100" alt="logogram">
-                   </div>
+                        <div class="col-md-5">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                          <img src="assets/logogram.png" class="d-block w-100" alt="logogram">
+                       </div>
                        <div class="carousel-item">
-                       <img src="assets/phoenician-abjad.png" class="d-block w-100" alt="abjad">
-                   </div>
-                       <div class="carousel-item">
-                       <img src="assets/fountain-pen.png" class="d-block w-100" alt="fountain-pen">
-                   </div>
-                     <div class="carousel-item">
-                       <img src="assets/typewriter.png" class="d-block w-100" alt="type-writer">
+                          <img src="assets/phoenician-abjad.png" class="d-block w-100" alt="abjad">
+                       </div>
+                          <div class="carousel-item">
+                            <img src="assets/fountain-pen.png" class="d-block w-100" alt="fountain-pen">
+                          </div>
+                            <div class="carousel-item">
+                            <img src="assets/typewriter.png" class="d-block w-100" alt="type-writer">
                      </div>
                    </div>
                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -101,50 +138,66 @@
                    </button>
                  </div>
                 </div>
-                <div class="col-md-3">
-                    <h1 class="font-weight-light big-heading" id="advances">Current Writing Advances</h1>
-                    <p class="support">This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                <div class="col-md-7">
+                    <p class="support">
+                        The Phoenician Abjad is what inspired most writing languages to date.
+                        It’s believed that writing was invented by the Sumerians, who were in Mesopotamia. Things like the typewriter, and alphasmart, have been proven to be well used for those who don’t want to focus on social media, while also trying to write something. Kobowriter happens to be an open-source project, funded by github, that allows for an e-reader to accept a keyboard, and to be used easily for writing. It’s believed that more expensive models of specific models tend to take more time to set up, and in turn, become too powerful for basic computers to withstand. This is why people encourage the usage of iPads, which happen to be more functional. The Pros of Older Technology (Ones with not much of a link to modern day social media) include more durability, quick start up time, constant energy with only batteries, and quick and easy keyboard shortcuts.</p>
+              </div>
+                    <p class="support col-md-12">The Cons of Older Technology include awkward screening, complications with sending files to more modern based technology, no backlight, and the lack of older technology being made today. Even with older technology, things such as Markdown could be used on a quickpad, for example. There are various cons for the desktop, when it comes to considering whether a desktop computer, laptop, or a smaller writing source is a more viable source. These cons include worse portability, and sometimes complicated to build. The cons for laptops include not being able to connect to other sources properly, and being too limited with expandability. The only possible con for the hand-held hardwares could be the fact that it might be too small to be held and used properly. Tokens were used as the initial writing device, where they commonly took the shapes of circles, or cones. Used to keep track of goods/trades. Other Writing Developments include Graphite Pencils, Early variations of Fountain Pens, Shorthand, and Portable Writing Devices. Graphite Pencils, which were originally Black-Lead Pencils, were firstly created as a tool for artists to sketch. Logograms were used as a means of communication around 3000 BC. They were signs of words, depicted in a specific language. The Alphabet was created around 1500 BC, with Lebanon presumably being the first to use a past variation of it. The earliest printed books required scribes and owners to finish them by adding large and detailed capitals and other navigational aids, including page numbers. The size of the margins and the space between lines was also calculated, as it was in medieval manuscripts.</p>
+                </div>
                 </div>
             </div>
             <!-- Call to Action-->
-            <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></div>
-            </div>
+                 <h1 class="big-heading" id="presentation">Presenting.. T.I.P.S!</h1>
+                    <div class="container">
+                        <div class="row">
+                    <img src="assets/word-art-tips.png" class="pencil animate__animated animate__tada col-sm-12 col-md-7">
+                    <div class="col-md-5">
+                 <h2 class="big-heading">What is T.I.P.S?</h2>
+                 <p class="support">T.I.P.S, which stands for <strong>The Imaginative Pen for Scholars,</strong> is a writing pencil, but with a twist; Not only does it have a wide variety of features, but it also pays <strong>you</strong> to write using it! I think this unique spin on the Writing Pen can inspire teenagers to pick up a pencil and write their hearts out! Below this mini paragraph are 3 different cards. They each talk about different parts of T.I.P.S: </p>
+                </div>
             <!-- Content Row-->
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Key Components of T.I.P.S:</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                            <h2 class="card-title">T.I.P.S' Key Features:</h2>
+                            <ul class="card-text">
+                                <li>T.I.P.S can be used on any surface, including more soft surfaces!</li>
+                                <li>T.I.P.S pays the user <strong>20 Cents for every word they write.</strong> The payment could come in the mail with a weekly check, or can be sent directly into a bank account if the user has a credit/debit card.</li>
+                                <li>T.I.P.S will automatically disable itself upon detecting that it's being illegaly used on private property.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">T.I.P.S' Power System:</h2>
+                            <ul class="card-text">
+                                <li>T.I.P.S relies on 2 Big Power Sources: Batteries, and Friction.</li>
+                                   <li><em>When Relying on Battery, be Mindful that T.I.P.S takes 2 Triple A Batteries. You can insert them by unscrewing the 'eraser' on the pen.</em></li>
+                                   <li><em>When Relying on Friction, place your hands on the built in grips, and gently start to rub the Pen. It'd take about a Minute and 50 Seconds for the Pen to be charged up halfway, and 3 Minutes for the Pen to be fully charged.</em></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Card Two</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                            <h2 class="card-title">T.I.P.S' Accessibility Systems:</h2>
+                            <ul class="card-text">
+                                <li>T.I.P.S can easily be customized to display written characters in any written language.</li>
+                                <li>T.I.P.S comes with a built in speaker, allowing writers to listen to what they wrote. This voice can also be customized in order to account for noise sensitivity.</li>
+                                <li>T.I.P.S has customizable ink colours, and each ink colour is environmental friendly, with it coming from natural sources such as bugs, plants and the soil.</li>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Card Three</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
                 </div>
             </div>
         </div>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-        </footer>
+            <h1 class="big-heading" id="contacts">Contacts</h1>
+            <div class="container px-4 px-lg-5">
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
