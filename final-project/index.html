@@ -41,9 +41,20 @@
 }
 .pencil {
   border-radius: 30%;
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
   margin-bottom: 3%;
+}
+@media(max-width: 768px) {
+.pencil {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+}
+.logo {
+  width: 8%;
+  height: 8%;
+}
 }
 .pencil:hover {
   animation-name: rotate;
@@ -102,7 +113,7 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
          <div class="container px-5">
           <img src="assets/logo.png" class="navbar-brand logo animate__animated animate__jello animate__infinite">
           <a class="navbar-brand nav-title" href="#!">Innovations of Writing</a>
@@ -119,19 +130,18 @@
         </nav>
         <!-- Page Content-->
         <div class="background-1">
+         <h1 class="big-heading" id="overview">Overview</h1>
+         <h1 class="big-heading" id="overview">Overview</h1>
          <div class="container bpx-4 px-lg-5">
           <!-- Heading Row-->
-          <h1 class="big-heading" id="overview">Overview</h1>
-           <div class="container">
-            <div class="row">
-             <div class="col-md-7">
-              <p class="support container">As clearly identified in history, communication has been the key to social interactions and collaborations. It’s also been the root of various relationships, romantic or not. Yet, none of these communications would have truly been done without the aid of writing systems. It might not seem like it immediately, but imagine this: Without writing tablets, and utensils, we wouldn’t have any information on more ancient events, nor would we have social media, as texting involves.. Writing. With that said, it begs the question; Why aren't we, as a society, exploring this whole world of writing that we created? Why did we create such a big gift, only to not use it as much as we truly should? Many teens nowadays only look to writing for texting along their social groups, and even then, there has been a whole other alphabet for communicating via social media. There is so much we can use, yet we don’t use it. There’s been various innovations and inventions that are here to aid in writing, and maybe, just maybe, they will be widely used in the near future.</p>
+          <div class="container">
+           <div class="row">
+            <div class="col-md-7">
+             <p class="support container">As clearly identified in history, communication has been the key to social interactions and collaborations. It’s also been the root of various relationships, romantic or not. Yet, none of these communications would have truly been done without the aid of writing systems. It might not seem like it immediately, but imagine this: Without writing tablets, and utensils, we wouldn’t have any information on more ancient events, nor would we have social media, as texting involves.. Writing. With that said, it begs the question; Why aren't we, as a society, exploring this whole world of writing that we created? Why did we create such a big gift, only to not use it as much as we truly should? Many teens nowadays only look to writing for texting along their social groups, and even then, there has been a whole other alphabet for communicating via social media. There is so much we can use, yet we don’t use it. There’s been various innovations and inventions that are here to aid in writing, and maybe, just maybe, they will be widely used in the near future.</p>
              </div>
-             <div class="col-md-5">
+            <div class="col-md-5">
               <img src="assets/pencil-writing.png" alt="pencil" id="write">
             </div>
-           </div>
-           <div class="background-2">
             <h1 class="font-weight-light big-heading" id="advances">Current Writing Advances</h1>
              <div class="row gx-4 gx-lg-5 align-items-center my-5">
               <div class="container">

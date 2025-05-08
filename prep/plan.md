@@ -52,8 +52,14 @@
 
 #### Beyond MVP
 
-[] Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
-[] Possibly try to replace some of the cards with the carousel, and change around the colors to fit the color palette you wanted.
+[X] Go through a big revamp. Creating from scratch is clearly not helping you, so get a bootstrap template and use it.
+[] Possibly try to replace some of the cards with the carousel, and change around the colors to fit the color palette you wanted. (Ended up reworking Cards)
+[] Space out each section by giving them a different background color.
+[X] Reduce the amount of words in 'Current Writing Advances' in order to make the section look cleaner.
+[X] Create a 'Footer' in order to properly display contacts.
+[X] Lock the Navbar in a 'Fixed Position.'
+[X] Add in some Media Queries in order to make the T.I.P.S Image and Logo Bigger on a smaller screen.
+[X] Fix the Navbar, so it directly links you to the Contacts Section.
 
 
 
