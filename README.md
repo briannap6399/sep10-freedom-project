@@ -8,22 +8,9 @@ If you're reading this, then Hi! My name is Brianna Peralta, and throughout my 4
 ## What is the Freedom Project? 
 The Freedom Project is a course long project assigned to every student who has chosen to attend SEP. The premise is simple; Research a Topic you enjoy, and depending on the Course you are taking, you will have to create and present your final results. For those in SEP10, their Freedom Project is based around Websites. Their project is to create a functional website that displays at least **2** Components learned from Bootstrap, as well as the research you should have gotten a bit earlier into the school year. You were also required to use an additional tool in order to help you code. For my Project, I decided to choose **Writing** as a topic, since the topic itself is very personal to me and where I come from, and for the additional tool, I chose to study and use  **[Animate CSS](https://animate.style/)**, as I thought it'd make the project more interesting. Using those 2 Selections, as well as knowledge from HTML, CSS, Bootstrap and Github, the Website was created and now it's free to be displayed. 
 
-## Links
-
-[Product](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
-
-[Presentation]()
-
-## Implications
-##### PROS
-*
-##### CONS
-*
-
-
-## Blog
-Below you will find my blog about how I made my project.
-
+## Links to Everything Important:
+### Blogs:
+Be mindful that Blogs are esentially me rambling about my Project, and showing the reader the thought process behind the creation of my website. Please enjoy them!
 * [Entry 1](blog/entry01.md)
 * [Entry 2](blog/entry02.md)
 * [Entry 3](blog/entry03.md)
@@ -34,3 +21,14 @@ Below you will find my blog about how I made my project.
 * [Entry 8](blog/entry08.md)
 * [Entry 9](blog/entry09.md)
 * [Entry 10](blog/entry10.md)
+
+
+[Product](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
+
+[Presentation]()
+
+## Implications
+##### PROS
+*
+##### CONS
+*
