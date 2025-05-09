@@ -10,17 +10,17 @@ The Freedom Project is a course long project assigned to every student who has c
 
 ## Links to Everything Important:
 ### Blogs:
-Be mindful that Blogs are esentially me rambling about my Project, and showing the reader the thought process behind the creation of my website. Please enjoy them!
-* [Entry 1](blog/entry01.md)
-* [Entry 2](blog/entry02.md)
-* [Entry 3](blog/entry03.md)
-* [Entry 4](blog/entry04.md)
-* [Entry 5](blog/entry05.md)
-* [Entry 6](blog/entry06.md)
-* [Entry 7](blog/entry07.md)
-* [Entry 8](blog/entry08.md)
-* [Entry 9](blog/entry09.md)
-* [Entry 10](blog/entry10.md)
+Throughout the Freedom Project, we were told to write Blogs, which documented the steps taken towards the final results. These Blogs admittedly are pretty long, and while I do apologize for that, I'd also like to say that they are this long in order to give life to the struggles and achievements I've made along the way. There are 10 Blogs in total, and they are in numerical order below this short paragraph.
+* [Entry 1](blog/entry01.md) **(Topic Selections)**
+* [Entry 2](blog/entry02.md) **(Research Progress)**
+* [Entry 3](blog/entry03.md) **(Brainstorming and Content Finalizing)**
+* [Entry 4](blog/entry04.md) **(Tool Acknowlegdement)**
+* [Entry 5](blog/entry05.md) **(Tool Learning)**
+* [Entry 6](blog/entry06.md) **(Website Production)**
+* [Entry 7](blog/entry07.md) **[TBA]**
+* [Entry 8](blog/entry08.md) **[TBA]**
+* [Entry 9](blog/entry09.md) **[TBA]**
+* [Entry 10](blog/entry10.md) **[TBA]**
 
 
 [Product](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
