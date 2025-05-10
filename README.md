@@ -31,10 +31,6 @@ These links represent any additional links that relate to the Freedom Project. S
 * [The Final Website](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
 * [The Final Presentation](#)
 
-[Product]
-
-[Presentation]()
-
 ## Implications
 ##### PROS
 *
