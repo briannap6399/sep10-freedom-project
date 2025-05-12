@@ -34,21 +34,17 @@
     height: 4%;
     width: 4%;
 }
-.carousel {
-    height: 110%;
-    width: 90%;
-    padding-bottom: 2.5%;
-    position: relative;
+#carousel2 {
+  padding-top: 7%;
+}
+.accordion-2 {
+  padding-top: 3%;
 }
 .img-fluid {
   height: auto;
 }
 .car-button {
    position: absolute;
-}
-.accordion-2 {
-  margin-left: 41.7%;
-  margin-down: 5%;
 }
 .pencil {
   border-radius: 30%;
@@ -169,7 +165,7 @@
               <div class="container">
                <div class="row">
                 <div class="col-md-5">
-                 <div id="carouselExample" class="carousel slide">
+                 <div id="carousel1" class="carousel slide">
                   <div class="carousel-inner">
                    <div class="carousel-item active">
                     <img src="assets/logogram.png" class="d-block w-100 img-fluid" id="logogram" alt="logogram">
@@ -178,32 +174,29 @@
                     <img src="assets/phoenician-abjad.png" class="d-block w-100 img-fluid" id="abjad" alt="abjad">
                    </div>
                     <div class="carousel-item">
-                     <img src="assets/fountain-pen.png" class="d-block w-100 img-fluid" id="fountain" alt="fountain-pen">
-                    </div>
-                     <div class="carousel-item">
-                      <img src="assets/typewriter.png" class="d-block w-100 img-fluid" id="typewriter" alt="type-writer">
+                     <img src="assets/token.png" class="d-block w-100 img-fluid" id="token" alt="ancient-token">
                     </div>
                    </div>
-                   <button class="carousel-control-prev car-button" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                   <button class="carousel-control-prev car-button" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                    </button>
-                   <button class="carousel-control-next car-button" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                   <button class="carousel-control-next car-button" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                    </button>
                  </div>
-                </div>
-                <div class="col-md-7 accordion-1">
+                 </div>
+                <div class="col-md-7 accordion">
                   <h3 class="big-heading">Before Common Era: (BCE)</h3>
-                 <div class="accordion" id="accordionExample">
+                 <div class="accordion" id="accordion-1">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                        <h5 class="support" id="bce">9000-3100 BCE:</h5>
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-1">
                       <div class="accordion-body">
                         <p class="support"><strong>Tokens were used as the initial writing device, where they commonly took the shapes of circles, or cones. They were used to keep track of various stocked goods, as well as trades amongst other people. They commonly used symbols to communicate however, instead of the modern day method of words.</strong></p>
                       </div>
@@ -215,7 +208,7 @@
                         <h5 class="support" id="bce-2">3000 BCE:</h5>
                       </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
                       <div class="accordion-body">
                        <p class="support"><strong>Logograms were used as a means of communication around 3000 BC. They took similar ideas of the writing token, where they’d use symbols to communicate certain topics. Think Egyptian Hieroglyphics, and the modern day Dollar Sign as examples of Logograms.</strong></p>
                       </div>
@@ -227,84 +220,109 @@
                        <h5 class="support" id="bce-3">1050 BCE:</h5>
                       </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
                       <div class="accordion-body">
                        <p class="support"><strong>The Phoenician Abjad would be created by this time, and is credited as the inspiration for future alphabets. It had about 21 characters, with each of them alone being used to represent a word. For example, our modern day 'N' was called Nun, and meant fish.</strong></p>
-                      </div>
+                     </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              </div>
+              </div><div class="container">
+                 <div class="row">
+                  <div class="col-md-5">
+                   <div id="carousel2" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/fountain-pen.png" class="d-block w-100" id="fountain" alt="fountain-pen">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/typewriter.png" class="d-block w-100" id="type" alt="type-writer">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/xerographic-copier.png" class="d-block w-100" id="copy" alt="xerographic">
+                     </div>
+                   </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Next</span>
+                  </button>
+                 </div>
                 </div>
                  <div class="col-md-7 accordion-2">
                   <h3 class="big-heading">Common Era: (CE)</h3>
                 <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-      <h5 class="support" id="ce-1">1662 CE:</h5>
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       <p class="support"><strong>Graphite Pencils, one of the first of its kind, was originally named Black Lead Pencils. They were originally used by artists to create quick sketches, before moving to the Modern Day usage we currently see and use them for.</strong></p>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        <h5 class="support" id="ce-2">1867-1884 CE:</h5>
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p class="support"><strong>Approximately in 1867, the first edition of the typewriter was created, which was a machine dedicated to typing long sequences of sentences within moments. They required patience and delicacy, as one could easily mess up an entire paper by accident with one mis-click.</strong></p>
-        <p class="support"><strong>By 1884, Fountain Pens would also start to appear. They are special pens with metal nibs at the tip, and use water based inks.Those with these kinds of pens were credited with excellent penmanship, and they are commonly used in arts such as calligraphy.</strong></p>
-    </div>
-  </div>
-</div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-      <h5 class="support" id="ce-3">1938 CE:</h5>
-      </button>
-    </h2>
-    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       <p class="support"><strong>By now, the Xerographic Copier was created. It’s a system that took graphic matter, and copied it on a photoconductive insulating surface. The paper it used to do this was smoother, and perfect to hold the necessary inks of any typed documents.</strong></p>
-      </div>
-    </div>
-  </div>
-     <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        <h5 class="support" id="ce-4">2006 CE:</h5>
-      </button>
-    </h2>
-    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p class="support"><strong>Google Docs, a digital source of writing documents, was originally called Writely in 2005, is still widely used today by businesses and scholars, after its immense amount of updates, including allowing other scholars/business associates to edit and watch over a document.</strong></p>
-    </div>
-    </div>
-    </div>
-     <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-       <h5 class="support" id="ce-5">2009-2010 CE:</h5>
-      </button>
-    </h2>
-    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p class="support"><strong>The Kobo eReader and Kobowriter are devices that were created with the help of Github, a website dedicated to working with businesses and classes in the creation of various softwares. These products would skillfully replicate the fonts found on paper documents, and the typical feel of simply writing a book.</strong></p>
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
-                            </div>
+                 <div class="accordion-item">
+                  <h2 class="accordion-header">
+                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    <h5 class="support" id="ce-1">1662 CE:</h5>
+                   </button>
+                  </h2>
+                   <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     <p class="support"><strong>Graphite Pencils, one of the first of its kind, was originally named Black Lead Pencils. They were originally used by artists to create quick sketches, before moving to the Modern Day usage we currently see and use them for.</strong></p>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="accordion-item">
+                   <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <h5 class="support" id="ce-2">1867-1884 CE:</h5>
+                    </button>
+                   </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                   <div class="accordion-body">
+                    <p class="support"><strong>Approximately in 1867, the first edition of the typewriter was created, which was a machine dedicated to typing long sequences of sentences within moments. They required patience and delicacy, as one could easily mess up an entire paper by accident with one mis-click.</strong></p>
+                <p class="support"><strong>By 1884, Fountain Pens would also start to appear. They are special pens with metal nibs at the tip, and use water based inks.Those with these kinds of pens were credited with excellent penmanship, and they are commonly used in arts such as calligraphy.</strong></p>
             </div>
-           </div>
           </div>
+        </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <h5 class="support" id="ce-3">1938 CE:</h5>
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+              <p class="support"><strong>By now, the Xerographic Copier was created. It’s a system that took graphic matter, and copied it on a photoconductive insulating surface. The paper it used to do this was smoother, and perfect to hold the necessary inks of any typed documents.</strong></p>
+              </div>
+            </div>
+          </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                <h5 class="support" id="ce-4">2006 CE:</h5>
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="support"><strong>Google Docs, a digital source of writing documents, was originally called Writely in 2005, is still widely used today by businesses and scholars, after its immense amount of updates, including allowing other scholars/business associates to edit and watch over a document.</strong></p>
+            </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              <h5 class="support" id="ce-5">2009-2010 CE:</h5>
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="support"><strong>The Kobo eReader and Kobowriter are devices that were created with the help of Github, a website dedicated to working with businesses and classes in the creation of various softwares. These products would skillfully replicate the fonts found on paper documents, and the typical feel of simply writing a book.</strong></p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>             </div>
+                    </div>
+                  </div>
+                  </div>
             <!-- Call to Action-->
            <h1 class="big-heading" id="presentation">Presenting.. T.I.P.S!</h1>
             <div class="container">
