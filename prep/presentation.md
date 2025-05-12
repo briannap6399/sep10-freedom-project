@@ -1,7 +1,11 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Start with a question:
+  * "What tends to motivate the human mind the most?" "What is claimed to make the World go round?"
+* Propose a problem to the crowd:
+  * "Not a lot of people would want to do big tasks without incentives. Let's say you are tasked with writing a 4 Page essay for someone. They won't pay you, or give any reward. Would you still write the essay?"
+  * 
 
 ## Product
 * 
