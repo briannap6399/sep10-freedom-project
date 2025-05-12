@@ -24,6 +24,7 @@ Throughout the Freedom Project, we were told to write Blogs, which documented th
 ### Project Relevancy:
 These links represent any additional links that relate to the Freedom Project. Specifically, they are dedicated to the end result and presentation, but as well as any of the additional sources I used such as specific Bootstrap Components. Without them, I probably would'nt have completed the Project, so big props to them.
 * [Animate CSS](https://animate.style/)
+* [Bootstrap; Accordion](https://getbootstrap.com/docs/5.3/components/accordion/)
 * [Bootstrap; Card](https://getbootstrap.com/docs/5.3/components/card/)
 * [Bootstrap; Carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
 * [Bootstrap; Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
