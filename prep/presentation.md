@@ -5,17 +5,34 @@
   * "What tends to motivate the human mind the most?" "What is claimed to make the World go round?"
 * Propose a problem to the crowd:
   * "Not a lot of people would want to do big tasks without incentives. Let's say you are tasked with writing a 4 Page essay for someone. They won't pay you, or give any reward. Would you still write the essay?"
-  * 
-
+* Gague the Crowd's Reactions, then propose a solution:
+  * "If so.. What if the person tasked you to write the essay, but while using this?"
 ## Product
-* 
-
+* Introduce T.I.P.S (The Imaginative Pen for Scholars):
+ * Briefly mention it's features, and the money gimmick.
+* Introduce the Website soon after:
+ * "All of this information, as well as what I've used to gather it can be found here!"
 ## Process
-* 
+* Go over the Thought Process behind T.I.P.S:
+ * "T.I.P.S was an idea I had forming in my head since I wanted to talk about writing.."
+* Connect the Website to T.I.P.S:
+ * "Because of T.I.P.S, I was inspired to do some further thinking.." 
+* Bring up the `Carousel Strand`:
+ * "While creating the Website, I felt stuck, and as if I wouldn't be able to produce it and T.I.P.S on time, but.. There's this one strand of code that not only helped me complete a section, but also encourage me to continue on. I call it the Carousel Strand.."
+* Show the `Carousel Strand` and Explain its Impact:
+ 
+  <div class="container">
+   <div class="row">
+    <div class="col-md-5">
 
 ## Conclusion
-* 
-
+* Give a brief recap of the Production Experience:
+ * "Writing and Planning everything was an absolute rollercoaster.."
+* Briefly Revisit Inspirations and Takeaways:
+ * "With the experience now being over, I plan to look back at it with fondness, and with the rememberance of the Carousel Strand. With a bit of encourgament, you can do anything."
+* Revisit Proposed Question from before, but while bringing up T.I.P.S:
+ * "Now with everything said.. Would you want to write that 4 Page Essay, but while using T.I.P.S?"
+* Thank the Crowd, before displaying an URL to the Website.
 <!-- EXAMPLE
 
 ## Hook
