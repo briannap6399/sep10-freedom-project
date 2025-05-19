@@ -17,10 +17,7 @@ Throughout the Freedom Project, we were told to write Blogs, which documented th
 * [Entry 4](blog/entry04.md) **(Tool Acknowlegdement)**
 * [Entry 5](blog/entry05.md) **(Tool Learning)**
 * [Entry 6](blog/entry06.md) **(Website Production)**
-* [Entry 7](blog/entry07.md) **[TBA]**
-* [Entry 8](blog/entry08.md) **[TBA]**
-* [Entry 9](blog/entry09.md) **[TBA]**
-* [Entry 10](blog/entry10.md) **[TBA]**
+* [Entry 7](blog/entry07.md) **(Homestretch)**
 ### Project Relevancy:
 These links represent any additional links that relate to the Freedom Project. Specifically, they are dedicated to the end result and presentation, but as well as any of the additional sources I used such as specific Bootstrap Components. Without them, I probably would'nt have completed the Project, so big props to them.
 * [Animate CSS](https://animate.style/)
@@ -30,7 +27,7 @@ These links represent any additional links that relate to the Freedom Project. S
 * [Bootstrap; Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
 * [Coolors](https://coolors.co/)
 * [The Final Website](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
-* [The Final Presentation](#)
+* [The Final Presentation](https://docs.google.com/presentation/d/1b40JXpsCoAYCTmAXr3mNTOVODSY6_5VneJAIFGoWoP4/edit?usp=sharing)
 
 ## Implications
 ##### PROS
