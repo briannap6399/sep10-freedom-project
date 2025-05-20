@@ -29,7 +29,7 @@ These links represent any additional links that relate to the Freedom Project. S
 * [The Final Website](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
 * [The Final Presentation](https://docs.google.com/presentation/d/1b40JXpsCoAYCTmAXr3mNTOVODSY6_5VneJAIFGoWoP4/edit?usp=sharing)
 
-## Implications
+## Implicationsx  
 ##### PROS
 *
 ##### CONS
