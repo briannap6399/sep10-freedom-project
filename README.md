@@ -17,7 +17,7 @@ Throughout the Freedom Project, we were told to write Blogs, which documented th
 * [Entry 4](blog/entry04.md) **(Tool Acknowlegdement)**
 * [Entry 5](blog/entry05.md) **(Tool Learning)**
 * [Entry 6](blog/entry06.md) **(Website Production)**
-* [Entry 7](blog/entry07.md) **(Homestretch)**
+* [Entry 7](blog/entry07.md) **(Presntations; In-Class & Elevator Styled)**
 ### Project Relevancy:
 These links represent any additional links that relate to the Freedom Project. Specifically, they are dedicated to the end result and presentation, but as well as any of the additional sources I used such as specific Bootstrap Components. Without them, I probably would'nt have completed the Project, so big props to them.
 * [Animate CSS](https://animate.style/)
@@ -29,8 +29,21 @@ These links represent any additional links that relate to the Freedom Project. S
 * [The Final Website](https://briannap6399.github.io/sep10-freedom-project/final-project/index.html)
 * [The Final Presentation](https://docs.google.com/presentation/d/1b40JXpsCoAYCTmAXr3mNTOVODSY6_5VneJAIFGoWoP4/edit?usp=sharing)
 
-## Implicationsx  
-##### PROS
+## Implications
+For some context, Implications, in terms of researching and data conjuring, are the effects that can come from what you are researching about. This stems to both ***Positive and Negative*** effects, and they typically at least half of the **9** categories shown below, which are further divided into **3** bigger categories:
+#### Global:
+* Government/Laws 
+* Big Systems
+* Environment
+#### Social:
+* Individual
+* Relationships
+* Culture
+#### Economic:
+* Jobs
+* Finances
+* Infrastructures
+### PROS
 *
-##### CONS
+### CONS
 *
