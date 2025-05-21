@@ -1,5 +1,5 @@
-# Entry 7
-##### X/X/XX
+# Entry 7: Presntations; In-Class & Elevator Styled
+##### Brianna Peralta on May 21st, 2025 (05/21/25)
 
 Text
 
