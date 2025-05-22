@@ -33,7 +33,7 @@ These links represent any additional links that relate to the Freedom Project. S
 For some context, Implications, in terms of researching and data conjuring, are the effects that can come from what you are researching about. This stems to both ***Positive and Negative*** effects, and they typically at least half of the **9** categories shown below, which are further divided into **3** bigger categories:
 #### Global:
 * Government/Laws 
-* Big Systems
+* Big Systems (Such as Education, Healthcare, etc)
 * Environment
 #### Social:
 * Individual
@@ -43,6 +43,7 @@ For some context, Implications, in terms of researching and data conjuring, are 
 * Jobs
 * Finances
 * Infrastructures
+Since my selected topic was Writing, I needed to consider how my product, T.I.P.S, would impact the 
 ### PROS
 *
 ### CONS
