@@ -1,4 +1,4 @@
-# Entry 4: Tool Acknowledgment 
+# Entry 4: Tool Acknowledgement 
 ##### Brianna Peralta on February 26th, 2025 (02/26/25)
 
 ## Content: 
