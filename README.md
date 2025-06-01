@@ -14,10 +14,10 @@ Throughout the Freedom Project, we were told to write Blogs, which documented th
 * [Entry 1](blog/entry01.md) **(Topic Selections)**
 * [Entry 2](blog/entry02.md) **(Research Progress)**
 * [Entry 3](blog/entry03.md) **(Brainstorming and Content Finalizing)**
-* [Entry 4](blog/entry04.md) **(Tool Acknowlegdement)**
+* [Entry 4](blog/entry04.md) **(Tool Acknowledgement)**
 * [Entry 5](blog/entry05.md) **(Tool Learning)**
 * [Entry 6](blog/entry06.md) **(Website Production)**
-* [Entry 7](blog/entry07.md) **(Presntations; In-Class & Elevator Styled)**
+* [Entry 7](blog/entry07.md) **(Presentations; In-Class & Elevator Styled)**
 ### Project Relevancy:
 These links represent any additional links that relate to the Freedom Project. Specifically, they are dedicated to the end result and presentation, but as well as any of the additional sources I used such as specific Bootstrap Components. Without them, I probably would'nt have completed the Project, so big props to them.
 * [Animate CSS](https://animate.style/)
@@ -43,8 +43,26 @@ For some context, Implications, in terms of researching and data conjuring, are 
 * Jobs
 * Finances
 * Infrastructures
-Since my selected topic was Writing, I needed to consider how my product, T.I.P.S, would impact the 
-### PROS
-*
-### CONS
-*
+Since my selected topic was Writing, I needed to consider how my products would affect at least some of these categories. After some internal debate, I've decided to talk about a pro and a con for **Big Systems**, **Individual**, **Culture**, **Jobs**, and **Finances**. So with that said, here's what I believe to be the Pros and Cons:
+### The Pros:
+#### Big Systems:
+My website, and T.I.P.S, can easily allow students, especially students at a young age, to learn about the importance of writing, and how society has adapted it.
+#### Individual:
+My end-results could possibly encourage someone to take up Writing as a side hobby, or even get into a Writing-Based Career, such as Journalism.
+#### Culture:
+This could lead to people comprehending and making new innovations to further progress the world of Writing.
+#### Jobs:
+Time has consistently proven that employers would prefer to hire an educated person, over someone who lacks general information on a specific topic. To ensure that the employees are as skilled as needed, there could be a required segment where employees write a small paper, typically about what the Organization is.
+#### Finances:
+With T.I.P.S in particular, teens and young scholars have a way to easily generate funds for themselves, whilst expressing themselves in a safe and creative manner. 
+### The Cons:
+#### Big Systems:
+These 2 Products might result in additional assistance for more challenged students, and the fact that the product introduced in the website wouldn't have a way to distribute funds to the students who use it.
+#### Individual:
+An individual could easily try to find ways to exploit the funds system of T.I.P.S, which goes against the goal of the invention.
+#### Culture:
+Due to the rise of technology, and AI Tools, people might get even more encouraged to leave Writing and Creative Expression as a thing of the past, and instead use tools to write for them.
+#### Jobs:
+THere is a possibility that Jobs might be too difficult to get, especially for those who struggle with motor functions.
+#### Finances:
+Again, there is the risk of exploitation with the pen that can easily occur. The website could also be an indirect cause for people to spend funds in order to obtain the past inventions listed, which could cause people to lose money.
