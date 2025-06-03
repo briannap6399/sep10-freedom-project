@@ -15,7 +15,7 @@ When I was presenting this publicly, I had recieved a lot of positive feedback, 
 
 My main goal with the Elevator Pitch was to make my 2 Products flow more smoothly together, and show how 1, (My Website) ended up impacting my future invention (T.I.P.S). However, I am able to see that I did favor one idea more than the other with this presentation as well, which leads me to the conclusion that I should work on balancing out my points whenever I present in the future. Due to this, and of course my progression through the course as awhole, I'd say I'm now on the last step of the **E**ngineering **D**esign **P**rocess (EDP), which simply states *'Communicate the Results'*. I do got to be honest, as I believe I was a little confused with the EDP, so that is my mistake, but I am glad that everything was able to still flow as necessary.
 ## Skills Development:
-Good News!
+Good News! I can finally make different sections for each skill, as not only is there a lot for me to bring up about each of my 3 skills, but I also feel like I have more positive opinions about them than I normally would. Might be because this part of the SEP Course was one of the most important in my life, but I'm still grateful. So with that said, let's go in Alphabetical Order, starting with ***Advanced Researching***. 
 ### Advanced Researching:
 ### Flexibility:
 ### Time-Management:
