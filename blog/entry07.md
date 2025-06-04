@@ -17,6 +17,7 @@ My main goal with the Elevator Pitch was to make my 2 Products flow more smoothl
 ## Skills Development:
 Good News! I can finally make different sections for each skill, as not only is there a lot for me to bring up about each of my 3 skills, but I also feel like I have more positive opinions about them than I normally would. Might be because this part of the SEP Course was one of the most important in my life, but I'm still grateful. So with that said, let's go in Alphabetical Order, starting with ***Advanced Researching***. 
 ### Advanced Researching:
+Considering the 
 ### Flexibility:
 ### Time-Management:
 ## Final Thoughts: 
